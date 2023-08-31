@@ -7,20 +7,20 @@ public class Task {
          */
 
         Scanner sc = new Scanner(System.in);
-        System.out.print("agam password giresen : ");
+        System.out.print("enter password : ");
 
         String password = sc.next();
 
         try {
             if (password.length()<6 ||password.length()>10){
-                throw new StringIndexOutOfBoundsException("agam 6 karakterden az ya da 10 karakterden fazla girdin ne ayak :( ");
+                throw new StringIndexOutOfBoundsException("You entered less than 6 characters or more than 10 characters :( ");
             }
-            else System.out.println("agam password geçerli :) "+password);
+            else System.out.println("password is valid :) "+password);
 
         } catch (StringIndexOutOfBoundsException ebikGabık) {
             System.out.println(ebikGabık);
-            System.out.println("agam allah bildği gibi selametle :( ");
+            System.out.println(" allah bildği gibi selametle :( ");
         }
-        System.out.println("agam sorun handle edildi DEWAMKEEE :)");//bu kod çalışmıssa pr sorunsuz kırılmadan run olmuştur
+        System.out.println("the problem has been handled :)");//bu kod çalışmıssa pr sorunsuz kırılmadan run olmuştur
     }
 }
