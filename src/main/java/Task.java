@@ -6,6 +6,7 @@ public class Task {
         Task -> Girilen password'un 6 karakterden az 10 karakterden fala olmamasını kontrol eden code create ediniz
          */
 
+
         Scanner sc = new Scanner(System.in);
         System.out.print("enter password : ");
 
